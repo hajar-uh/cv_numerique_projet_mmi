@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>CENTRES D'INTÉRÊT</title>
+        <script src="js/jquery.js"></script>
+       <link rel="stylesheet" href="css/stylecentre.css">
+       <link rel="stylesheet" href="css/profil.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+       <script>
+        $("document").ready(function(){  /** Quand le document est prêt mettre en marche la fonction, $("SELECTEUR").QUESTQUONFAIT(fonction){})**/ 
+
+        $('.bouton_show_hide').click(function () {
+        $(".slide_dessus").toggle("'slide', {direction:'right'}, 2000");
+        });
+        
+        $(".icon").css('filter','grayscale(100%)');
+        $(".i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8").mouseenter(function () {
+            $(this).css('filter', '')
+        })
+        $(".i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8").mouseleave(function () {
+            $(this).css('filter', 'grayscale(100%)')
+        })
+        $("h1").mouseenter( function() {
+            $(this).css('color','#1A6D64')
+        })
+        $("h1").mouseleave( function(){
+            $(this).css('color','')
+        })
+
+
+        });
+       </script>
+
+       <style>
+       span{
+           text-align: center
+       }
+       </style>
+   </head> 
+
+   <body>
+    
+       <div id="droite" >
+            <div class="fond_droite">
+                
+            <div class="container_wrap">
+                <h1>Quelques un de mes hobbies</h1>
+                <div class="wrap1">
+                <img class="icon i1" src="img/cinema.png" alt="hobby_cinema">
+                <img class="icon i2" src="img/trip.png" alt="hobby_voyage">
+                <img class="icon i3" src="img/music.png" alt="hobby_musique">
+                <img class="icon i4" src="img/videogames.png" alt="hobby_jeux_videos">
+            </div>
+            <div class="espace"></div>
+            <div class="wrap2">
+                <img class="icon i5" src="img/tea.png" alt="hobby_thé">
+                <img class="icon i6" src="img/drama.png" alt="hobby_théâtre">
+                <img class="icon i7" src="img/art.png" alt="hobby_art">
+                <img class="icon i8" src="img/reading.png" alt="hobby_lecture_écriture">
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- NE PAS TOUCHER EN DESSOUS -->
+
+       <div id="gauche">
+        <div class="fond_gauche"></div>
+        <div class="slide_dessus">
+            
+            <img class="img_quote" src="img/quote.png" alt="">
+            
+            <img class="img_fond_key" src="img/fond_key.PNG" alt="">
+            
+        </div>
+
+        <div class="slide_dessous">
+            
+            <div id="menu_block" >
+                <h1>SOMMAIRE</h1>
+                <a href="index.html" class="menu_block">ME CONCERNANT</a>
+                <a href="formation.html" class="menu_block">FORMATION</a>
+                <a href="competence.html" class="menu_block">COMPÉTENCES</a>
+                <a href="experience.html" class="menu_block">EXPÉRIENCES</a>
+                <p class="menu_block here">CENTRES D'INTÉRÊT</p>
+                <a href="portfolio.html" class="menu_block">PORTFOLIO</a>
+                <a href="contact.html" class="menu_block">ME CONTACTER</a>
+            </div>
+        </div>
+
+        <div class="bouton">
+        <!-- <a href="#" class="bouton_show_hide">Show/hide</a> -->
+            <div class="profile">
+                <div class="photo"><img src="img/profile.png"/>
+                </div>
+                <div class="content">
+                    <div class="text">
+                    <h3>Hajar Bakhii</h3>
+                    <h5>Etudiante en MMI</h6>
+                </div>
+                <a href="#" class="bouton_show_hide"><div class="btn"><span></span></div></a>
+                </div>
+            </div> 
+        </div>
+        
+        </div><!--  fin id cote -->
+        
+        
+   </body>
+</html>

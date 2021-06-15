@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    cursor: url("../img/arrow.cur"), auto;
+    
+}
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+/*COTE DROITE */
+.fond_droite{
+    height: 100vh;
+    width: 73vw;
+    background-color:#202020;
+    position: fixed;
+    left: 25vw;
+    padding: 25px 25px ;
+}
+
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: #1A6D64;
+}
+
+/* PROGRESS BAR 1 avec .titre et .pourcentage */
+.container{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container .progress_bar{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+.pourcentage{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 1vw;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #202020;
+}
+.titre{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 1vw;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #202020;
+}
+#play_animation{
+     animation: progress_animation 5s forwards;
+}
+ @keyframes progress_animation{
+     0% {width: 0%;}
+     100% {width: 100%;}
+ }
+/* .container, button{
+    display: inline-block;
+} */
+
+/* PROGRESS BAR 2 */
+.container_2{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_2 .progress_bar_2{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_2{
+     animation: progress_animation_2 5s forwards;
+}
+ @keyframes progress_animation_2{
+     0% {width: 0%;}
+     100% {width: 80%;}
+ }
+
+
+/* PROGRESS BAR 3 */
+.container_3{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_3 .progress_bar_3{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_3{
+     animation: progress_animation_3 5s forwards;
+}
+ @keyframes progress_animation_3{
+     0% {width: 0%;}
+     100% {width: 50%;}
+ }
+
+
+/* PROGRESS BAR 4 */
+.container_4{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_4 .progress_bar_4{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_4{
+     animation: progress_animation_4 5s forwards;
+}
+ @keyframes progress_animation_4{
+     0% {width: 0%;}
+     100% {width: 40%;}
+ }
+
+.container, .container_2, .container_3, .container_4{
+    margin: 1vh;
+    margin-left: 0;
+}
+
+.espace{
+    background-color:#202020;
+    height: 3vh;
+}
+
+/* PROGRESS BAR 5 */
+.container_5{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_5 .progress_bar_5{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_5{
+     animation: progress_animation_5 5s forwards;
+}
+ @keyframes progress_animation_5{
+     0% {width: 0%;}
+     100% {width: 80%;}
+ }
+/* PROGRESS BAR 6 */
+.container_6{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_6 .progress_bar_6{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_6{
+     animation: progress_animation_6 5s forwards;
+}
+ @keyframes progress_animation_6{
+     0% {width: 0%;}
+     100% {width: 70%;}
+ }
+ /* PROGRESS BAR 7 */
+.container_7{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_7 .progress_bar_7{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_7{
+     animation: progress_animation_7 5s forwards;
+}
+ @keyframes progress_animation_7{
+     0% {width: 0%;}
+     100% {width: 25%;}
+ }
+  /* PROGRESS BAR 8 */
+.container_8{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_8 .progress_bar_8{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_8{
+     animation: progress_animation_8 5s forwards;
+}
+ @keyframes progress_animation_8{
+     0% {width: 0%;}
+     100% {width: 20%;}
+ }
+ .container_5, .container_6, .container_7, .container_8{
+    margin: 1vh;
+    margin-left: 0;
+}
+  /* PROGRESS BAR 8bis */
+  .container_8bis{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_8bis .progress_bar_8bis{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_8bis{
+     animation: progress_animation_8bis 5s forwards;
+}
+ @keyframes progress_animation_8bis{
+     0% {width: 0%;}
+     100% {width: 15%;}
+ }
+   /* PROGRESS BAR 8tier */
+   .container_8tier{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_8tier .progress_bar_8tier{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_8tier{
+     animation: progress_animation_8tier 5s forwards;
+}
+ @keyframes progress_animation_8tier{
+     0% {width: 0%;}
+     100% {width: 15%;}
+ }
+ .container_5, .container_6, .container_7, .container_8, .container_8bis, .contrainer_8tier{
+    margin: 1vh;
+    margin-left: 0;
+}
+
+.espace{
+    background-color:#202020;
+    height: 3vh;
+}
+  /* PROGRESS BAR 9 */
+  .container_9{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_9 .progress_bar_9{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_9{
+     animation: progress_animation_9 5s forwards;
+}
+ @keyframes progress_animation_9{
+     0% {width: 0%;}
+     100% {width: 85%;}
+ }
+  /* PROGRESS BAR 10 */
+  .container_10{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_10 .progress_bar_10{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_10{
+     animation: progress_animation_10 5s forwards;
+}
+ @keyframes progress_animation_10{
+     0% {width: 0%;}
+     100% {width: 75%;}
+ }
+  /* PROGRESS BAR 11 */
+  .container_11{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_11 .progress_bar_11{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_11{
+     animation: progress_animation_11 5s forwards;
+}
+ @keyframes progress_animation_11{
+     0% {width: 0%;}
+     100% {width: 70%;}
+ }
+   /* PROGRESS BAR 12 */
+   .container_12{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_12 .progress_bar_12{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_12{
+     animation: progress_animation_12 5s forwards;
+}
+ @keyframes progress_animation_12{
+     0% {width: 0%;}
+     100% {width: 65%;}
+ }
+   /* PROGRESS BAR 13 */
+   .container_13{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_13 .progress_bar_13{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_13{
+     animation: progress_animation_13 5s forwards;
+}
+ @keyframes progress_animation_13{
+     0% {width: 0%;}
+     100% {width: 60%;}
+ }
+  /* PROGRESS BAR 14 */
+  .container_14{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_14 .progress_bar_14{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_14{
+     animation: progress_animation_14 5s forwards;
+}
+ @keyframes progress_animation_14{
+     0% {width: 0%;}
+     100% {width: 55%;}
+ }
+   /* PROGRESS BAR 15 */
+   .container_15{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_15 .progress_bar_15{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_15{
+     animation: progress_animation_15 5s forwards;
+}
+ @keyframes progress_animation_15{
+     0% {width: 0%;}
+     100% {width: 50%;}
+ }
+   /* PROGRESS BAR 16 */
+   .container_16{
+    height: 28px;
+    width: 72vw;
+    background-color:#DFDFDF;
+    position: relative;
+    border-radius: 7px;
+}
+.container_16 .progress_bar_16{
+    position: absolute;
+    height: 100%;
+    background-color:#1A6D64;
+    border-radius: 7px;
+}
+#play_animation_16{
+     animation: progress_animation_16 5s forwards;
+}
+ @keyframes progress_animation_16{
+     0% {width: 0%;}
+     100% {width: 45%;}
+ }
+    /* PROGRESS BAR 17 */
+    .container_17{
+        height: 28px;
+        width: 72vw;
+        background-color:#DFDFDF;
+        position: relative;
+        border-radius: 7px;
+    }
+    .container_17 .progress_bar_17{
+        position: absolute;
+        height: 100%;
+        background-color:#1A6D64;
+        border-radius: 7px;
+    }
+    #play_animation_17{
+         animation: progress_animation_17 5s forwards;
+    }
+     @keyframes progress_animation_17{
+         0% {width: 0%;}
+         100% {width: 20%;}
+     }
+
+     .container_9, .container_10, .container_11, .container_12, .container_13, 
+     .container_14, .container_15, .container_16, .container_17{
+        margin: 1vh;
+        margin-left: 0;
+    }
+    
+    .espace{
+        background-color:#202020;
+        height: 3vh;
+    }
+
+    /* BTN */
+    .container_btn{
+        display: flex;
+    }
+    .container_btn a{
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: block;
+    position:absolute;
+    width: 10vw;
+    height: 0vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom:1vh;
+    color: #1A6D64;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ON NE TOUCHE A RIEN EN DESSOUS DE CA  */
+/*COTE GAUCHE */
+.slide_dessus{
+    background-color: #DFDFDF;
+    height: 100vh;
+    width: 25vw;
+}
+.slide_dessus .img_fond_key{
+    width: 100%;
+    position: relative;
+    top: -5vh;
+    z-index: 0;
+}
+.slide_dessus .img_quote{
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    position: relative;
+    z-index: 10;
+}
+.bouton{
+    position: fixed;
+    bottom: -2px;
+    display: block;
+    height: 11vh;
+    width: 25vw;
+    z-index: 10;
+}
+
+ .slide_dessous{
+     position: fixed;
+     width: 25vw;
+     height: 100vh;
+     background-color: #DFDFDF;
+     display: block;
+     
+}
+.slide_dessous #menu_block{
+    /* background-color: rebeccapurple; */
+    display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     width: 100%;
+     height: 85%;
+
+
+}
+.slide_dessous a, .slide_dessous p{
+    display: block;
+    border: 3px solid #DFDFDF;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 75px;
+    height: 10%;
+    background-color: #202020;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #DFDFDF;
+    transition: background-color 0.5s ease;
+}
+.slide_dessous .here{
+    color: #1A6D64;
+    background-color: #DFDFDF;
+    font-weight: 600;
+}
+
+.slide_dessous a:hover{
+    color:#202020;
+    /* border: 3px solid #202020; */
+    background-color: #DFDFDF;
+
+}
+.slide_dessous h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7vw;
+
+}
+
+.fond_gauche{
+    position: fixed;
+    z-index: -10;
+     width: 25vw;
+     height: 90vh;
+     background-color: #DFDFDF;
+}

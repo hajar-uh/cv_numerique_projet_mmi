@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>ME CONTACTER</title>
+        <script src="js/jquery.js"></script>
+        <!-- <script src="js/formulaire.js"></script> -->
+       <link rel="stylesheet" href="css/stylecontact.css">
+       <link rel="stylesheet" href="css/profil.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+       <script>
+        $("document").ready(function(){  /** Quand le document est prêt mettre en marche la fonction, $("SELECTEUR").QUESTQUONFAIT(fonction){})**/ 
+
+        $('.bouton_show_hide').click(function () {
+        $(".slide_dessus").toggle("'slide', {direction:'right'}, 2000");
+        });
+        
+        $(".accordeon_tab").click(function(){
+           $(".accordeon_tab").each(function(){
+             $(this).parent().removeClass("active");
+             $(this).removeClass("active");
+          });
+        $(this).parent().addClass("active");
+        $(this).addClass("active");
+        });
+
+
+
+        });
+       </script>
+
+       <style>
+
+       </style>
+   </head> 
+
+   <body>
+       <div id="droite" >
+        <div class="fond_droite">
+        <div class="wrapper">
+            <div class="accordeon active">
+                <div class="accordeon_tab active">
+                    <p> POUR ME CONTACTER :</p>
+                    <div class="accordeon_arrow">
+                      <img src="img/fleche.png" alt="flèche cliquable">
+                  </div>
+                </div>
+                <div class="accordeon_content">
+                  <div class="accordeon_item">
+                   
+                    <form action="formulaire/envoi.php" method="get">
+                <!-- <legend>Pour me contacter : </legend> -->
+                <input type="text" name="nom" id="nom" placeholder="Nom*">
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom*"><br>
+                <input type="email" name="email" id="email" placeholder="Email*"><br>
+                <textarea rows="5" cols="40" name="message" placeholder="Message*"></textarea><br>
+                <input type="submit" id="envoi" value="Envoyer">
+                    </form>
+                
+                </div>
+                </div>
+              </div>
+
+              <div class="accordeon">
+                <div class="accordeon_tab">
+                    <p>Quelques liens & réseaux sur lesquels me retrouver :</p>
+                    <div class="accordeon_arrow">
+                      <img src="img/fleche.png" alt="flèche cliquable">
+                  </div>
+                </div>
+                <div class="accordeon_content">
+                  <div class="accordeon_item">
+                    <!-- <p class="item_title">Dessiner est pour moi une habitude que ça soit avec des moyens traditionnels ou non</p> -->
+                    <div class="pre1"><a href="https://github.com/hajar-uh"><img src="img/github.png" alt="lien_github"></a> <a href="http://linkedin.com/in/hjr-b-91083118b"><img src="img/linkedin.png" alt="lien_likedin"></a> <a href="pdf/CV_BAKHII_HAJAR_fr.pdf"><img src="img/pdf.png" alt="lien_pdf"></a> <a href="https://www.youtube.com/channel/UC84bydhBBhB1JZ-Aj3C531g"><img src="img/youtube.png" alt="lien_chaine_youtube"></a></div>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+        </div>
+
+  </div>
+
+                <!-- ON NE TOUCHE A RIEN EN DESSOUS DE CA  -->
+       <div id="gauche">
+        <div class="fond_gauche"></div>
+        <div class="slide_dessus">
+            
+            <img class="img_quote" src="img/quote.png" alt="">
+            
+            <img class="img_fond_key" src="img/fond_key.PNG" alt="">
+            
+        </div>
+
+        <div class="slide_dessous">
+            
+            <div id="menu_block" >
+                <h1>SOMMAIRE</h1>
+                <a href="index.html" class="menu_block">ME CONCERNANT</a>
+                <a href="formation.html" class="menu_block">FORMATION</a>
+                <a href="competence.html" class="menu_block">COMPÉTENCES</a>
+                <a href="experience.html" class="menu_block">EXPÉRIENCES</a>
+                <a href="centredinteret.html" class="menu_block">CENTRES D'INTÉRÊT</a>
+                <a href="portfolio.html" class="menu_block">PORTFOLIO</a>
+                <p class="menu_block here">ME CONTACTER</p>
+            </div>
+        </div>
+
+        <div class="bouton">
+        <!-- <a href="#" class="bouton_show_hide">Show/hide</a> -->
+            <div class="profile">
+                <div class="photo"><img src="img/profile.png"/>
+                </div>
+                <div class="content">
+                    <div class="text">
+                    <h3>Hajar Bakhii</h3>
+                    <h5>Etudiante en MMI</h6>
+                </div>
+                <a href="#" class="bouton_show_hide"><div class="btn"><span></span></div></a>
+                </div>
+            </div> 
+        </div>
+        
+        </div><!--  fin id cote -->
+        
+        
+   </body>
+</html>

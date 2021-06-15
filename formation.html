@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>FORMATION</title>
+        <script src="js/jquery.js"></script>
+       <link rel="stylesheet" href="css/styleformation.css">
+       <link rel="stylesheet" href="css/profil.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+       <script>
+        $("document").ready(function(){  /** Quand le document est prêt mettre en marche la fonction, $("SELECTEUR").QUESTQUONFAIT(fonction){})**/ 
+
+        $('.bouton_show_hide').click(function () {
+        $(".slide_dessus").toggle("'slide', {direction:'right'}, 2000");
+        });
+        
+        //FIN MENU
+
+        $(".accordeon_tab").click(function(){
+           $(".accordeon_tab").each(function(){
+             $(this).parent().removeClass("active");
+             $(this).removeClass("active");
+          });
+        $(this).parent().addClass("active");
+        $(this).addClass("active");
+        });
+
+        });
+       </script>
+
+       <style>
+
+       </style>
+   </head> 
+
+   <body>
+       <div id="droite" >
+            <div class="fond_droite">
+                <div class="wrapper">
+                  <h1>Les différentes formations par lesquelles je suis passée</h1>
+                    <div class="accordeon active">
+                      <div class="accordeon_tab active">
+                          <p> Sept. 2020 à maintenant — DUT MMI</p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">DUT MMI - Multimédia et Métiers de l'Internet</p>
+                          <div class="pre1"><img src="img/iut_1.png" alt=""> <img src="img/iut_2.png" alt=""></div>
+                          <p>Le DUT MMI est une formation universitaire des métiers du web et du multimédia. J'ai choisi ce cursus pour sa grande polyvalence dans différents secteurs qui m'intéressaient tous de manière équivalente. Je cherchais une formation pluridisciplinaire qui me laisse la possibilité de laisser parler ma créativité. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordeon">
+                      <div class="accordeon_tab">
+                          <p> Fev. 2019 - Avr. 2019 — Formation BTech</p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">Initiation au web développement</p>
+                          <div class="pre1"><img src="img/btech_lieux_1.png" alt=""> <img src="img/btech_lieux_2.png" alt=""></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordeon">
+                        <div class="accordeon_tab">
+                            <p> 2017 - 2018 - Prépa PCSI</p>
+                            <div class="accordeon_arrow">
+                              <img src="img/fleche.png" alt="arrow">
+                          </div>
+                        </div>
+                        <div class="accordeon_content">
+                          <div class="accordeon_item">
+                            <p class="item_title">Ecole préparatoire Physique Chimie Sciences de l'Ingénieur </p>
+                            <div class="pre1"><img src="img/pcsi_1.png" alt=""> <img src="img/pcsi_2.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordeon">
+                        <div class="accordeon_tab">
+                            <p> 2015 - 2017 - Concours PACES</p>
+                            <div class="accordeon_arrow">
+                              <img src="img/fleche.png" alt="arrow">
+                          </div>
+                        </div>
+                        <div class="accordeon_content">
+                          <div class="accordeon_item">
+                            <p class="item_title">Concours Première Année Commune aux Etudes de Santé</p>
+                            <div class="pre1"><img src="img/medecine_1.png" alt=""> <img src="img/medecine_2.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="accordeon">
+                      <div class="accordeon_tab">
+                          <p> Session 2015 - Baccalauréat S, Section européenne</p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">Baccalauréat Scientifique, option Sciences de la Vie et de la Terre, section européeenne anglais.</p>
+                          <div class="pre1"><img src="img/lycee_1.png" alt=""> <img src="img/lycee_2.png" alt=""></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        <!-- NE PAS TOUCHER EN DESSUS -->
+       <div id="gauche">
+        <div class="fond_gauche"></div>
+        <div class="slide_dessus">
+            
+            <img class="img_quote" src="img/quote.png" alt="">
+            
+            <img class="img_fond_key" src="img/fond_key.PNG" alt="">
+            
+        </div>
+
+        <div class="slide_dessous">
+            
+            <div id="menu_block" >
+                <h1>SOMMAIRE</h1>
+                <a href="index.html" class="menu_block">ME CONCERNANT</a>
+                <p class="menu_block here">FORMATION</p>
+                <a href="competence.html" class="menu_block">COMPÉTENCES</a>
+                <a href="experience.html" class="menu_block">EXPÉRIENCES</a>
+                <a href="centredinteret.html" class="menu_block">CENTRES D'INTÉRÊT</a>
+                <a href="portfolio.html" class="menu_block">PORTFOLIO</a>
+                <a href="contact.html" class="menu_block">ME CONTACTER</a>
+            </div>
+        </div>
+
+        <div class="bouton">
+        <!-- <a href="#" class="bouton_show_hide">Show/hide</a> -->
+            <div class="profile">
+                <div class="photo"><img src="img/profile.png"/>
+                </div>
+                <div class="content">
+                    <div class="text">
+                    <h3>Hajar Bakhii</h3>
+                    <h5>Etudiante en MMI</h6>
+                </div>
+                <a href="#" class="bouton_show_hide"><div class="btn"><span></span></div></a>
+                </div>
+            </div> 
+        </div>
+        
+        </div><!--  fin id cote -->
+        
+        
+   </body>
+</html>

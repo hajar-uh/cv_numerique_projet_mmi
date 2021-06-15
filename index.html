@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>MON CV INTERACTIF</title>
+        <script src="js/jquery.js"></script>
+       <link rel="stylesheet" href="css/styleindex.css">
+       <link rel="stylesheet" href="css/profil.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+       <script>
+        $("document").ready(function(){  /** Quand le document est prêt mettre en marche la fonction, $("SELECTEUR").QUESTQUONFAIT(fonction){})**/ 
+
+        $('.bouton_show_hide').click(function () {
+        $(".slide_dessus").toggle("'slide', {direction:'right'}, 2000");
+        });
+        
+        //FIN MENU
+
+        $(".accordeon_tab").click(function(){
+           $(".accordeon_tab").each(function(){
+             $(this).parent().removeClass("active");
+             $(this).removeClass("active");
+          });
+        $(this).parent().addClass("active");
+        $(this).addClass("active");
+        });
+
+        });
+       </script>
+
+       <style>
+
+       </style>
+   </head> 
+
+   <body>
+       <div id="droite" >
+            <div class="fond_droite">
+              
+                <div class="wrapper">
+                  <h1>Bievenue sur mon cv interactif</h1>
+                    <div class="accordeon active">
+                      <div class="accordeon_tab active">
+                          <p>Quelques informations me concernant :</p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">Hajar BAKHII, <span> étudiante passionnée & dynamique</span></p>
+                          <p>Imperfection is a form of freedom, s'il me fallait bien une citation à mettre sur mon cv interactif c'est bien celle-ci. Perfectionniste dans l'âme, j'essaie de me défaire de ses mauvaises habitudes. Parce que s'il y a bien une chose que j'ai compris c'est que la perfection n'est qu'une règle dont il faut se libérer.
+                            <br>
+                            <br>
+                            Vous trouverez dans ce cv interactif assez d'élément pour mieux me cerner et appréhender mon travail. Passionée dans différents domaines d'études dont les arts et le numérique. J'essaie toujours de mêlé créativité et réalisation pratique. L'important est autant la forme que le fond, d'où l'importance, dans le web d'aujourd'hui, du visuel.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordeon">
+                      <div class="accordeon_tab">
+                          <p>Si j'étais un super héro : </p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">Je serais Captain America</p>
+                          <p>Un des tout premiers comics que j'ai pu lire dans mon enfance. Ce personnage m'a toujours inspiré. Il n'est pas des plus puissants, ni des plus originaux. Son arme est un bouclier et c'est tout ce qu'il y a à retenir de cet héro. Il ne combat pas, il défend. Au delà, de la connotation très américaine qu'on pourrait lui donné. Il n'est pas le défenseur des Etats-Unis. Il défend ce qui lui paraît juste, ce qui a ses yeux est bon. Qu'importe ce que les médias, les politiques, les lobbies disent. Qu'importe si le pays entier décide que quelques choses de mauvais est juste. Captain America représente plus le principe de se tenir debout, de se tenir à ses principes et de ne pas laisser notre vérité,ce qui nous est juste et cher, être piétiner par la majorité, qu'importe si cette majorité est le monde entier. </p>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div class="accordeon">
+                        <div class="accordeon_tab">
+                            <p>Si j'étais un personnage historique :</p>
+                            <div class="accordeon_arrow">
+                              <img src="img/fleche.png" alt="arrow">
+                          </div>
+                        </div>
+                        <div class="accordeon_content">
+                          <div class="accordeon_item">
+                            <p class="item_title">Je serais Alan Turing</p>
+                            <p>Quand bien même, il est dépeint comme un génie torturé dans le film : The Imitation Game et qu'il est un de ceux qui ont marqué le monde de smathématiques, de l'informatique et de l'intelligence artificelle, Alan Turing reste une sorte d'héro de l'ombre. Il a su comprendre que la Seconde Guerre Mondiale n'était pas qu'une lutte sur le terrain, mais une longue partie d'échec entre l'homme et la machine.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordeon">
+                        <div class="accordeon_tab">
+                            <p> Si j'étais une peinture, une sculpture : </p>
+                            <div class="accordeon_arrow">
+                              <img src="img/fleche.png" alt="arrow">
+                          </div>
+                        </div>
+                        <div class="accordeon_content">
+                          <div class="accordeon_item">
+                            <p class="item_title">Je serais L'ange déchu d'Alexandre Cabanel<br> Je serais la Piéta de Michel-Ange</p>
+                            <p>Deux oeuvres qui ne ressemblent qu'assez peu mise à part la légère connotation religieuse qu'elles peuvent partagées. Le plus vieux souvenir d'une visite au musée qui me revient est celle d'une exposition d'Alexandre Cabanel, et quand bien même les années ont passé, je me souviens encore de mon admiration pour cette artiste qui m'a laissé sans voix à chaque peinture. Concernant Michel-Ange, on ne le présente plus, s'il est plus souvent mentionné pour la Chapelle Sixtine, j'ai préféré garder en mémoire la sculpture de la Piéta, une oeuvre touchante et forte en symbollisme.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordeon">
+                        <div class="accordeon_tab">
+                            <p> Si j'étais une musique, une chanson, un album : </p>
+                            <div class="accordeon_arrow">
+                              <img src="img/fleche.png" alt="arrow">
+                          </div>
+                        </div>
+                        <div class="accordeon_content">
+                          <div class="accordeon_item">
+                            <p class="item_title">Je serais Merry go round of Life du compositeur Joe Hisaishi<br> Je serais Redbone composé et interprété par Childish Gambino <br> Je serais Hawwah de l'artiste Gain </p>
+                            <p>Ce sont trois oeuvres qui m'ont marquée et qui ne seront sûrement jamais trop vieilles ou trop écoutées pour moi. Je ne me lasserais sûrement jamais de les écouter et elles traînent toujours dans mes playlists ! Que ça soit par les paroles ou la composition, ces trois oeuvres ont su me faire voir et vivre tout un univers juste par le son, sans l'aide d'aucun autre sens.</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                    <div class="accordeon">
+                      <div class="accordeon_tab">
+                          <p>Si j'étais un anime, un film, un livre, un manga : </p>
+                          <div class="accordeon_arrow">
+                            <img src="img/fleche.png" alt="arrow">
+                        </div>
+                      </div>
+                      <div class="accordeon_content">
+                        <div class="accordeon_item">
+                          <p class="item_title">Je serais L'attaque des Titans <br> Je serais Inception de Nolan<br> Je serais Tokyo de Mo Hayder <br> Je serais Kuroshitsuji de Yana Toboso </p>
+                          <p>S'il y a un point commun entre ses quatres oeuvres, c'est une aventure, tragique pour la plupart. Des protagonistes, brisés, à la recherche d'une vérité, de leur vérité. Quelques enquêtes, du drame, des pleurs, un tourbillon d'émotions, et des intrigues à ne plus savoir qu'en faire, sans jamais, pour autant, paraître répétitifs ou exagérés. Chacune de ses oeuvres, est une expérience à part entière, entre la réalité et la fiction, certaines scènes m'hantent encore, pour le meilleur et pour le pire.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+            </div>
+        </div>
+
+
+        <!-- NE PAS TOUCHER EN DESSUS -->
+       <div id="gauche">
+        <div class="fond_gauche"></div>
+        <div class="slide_dessus">
+            
+            <img class="img_quote" src="img/quote.png" alt="">
+            
+            <img class="img_fond_key" src="img/fond_key.PNG" alt="">
+            
+        </div>
+
+        <div class="slide_dessous">
+            
+            <div id="menu_block" >
+                <h1>SOMMAIRE</h1>
+                <p class="menu_block here">ME CONCERNANT</p>
+                <a href="formation.html" class="menu_block">FORMATION</a>
+                <a href="competence.html" class="menu_block">COMPÉTENCES</a>
+                <a href="experience.html" class="menu_block">EXPÉRIENCES</a>
+                <a href="centredinteret.html" class="menu_block">CENTRES D'INTÉRÊT</a>
+                <a href="portfolio.html" class="menu_block">PORTFOLIO</a>
+                <a href="contact.html" class="menu_block">ME CONTACTER</a>
+            </div>
+        </div>
+
+        <div class="bouton">
+        <!-- <a href="#" class="bouton_show_hide">Show/hide</a> -->
+            <div class="profile">
+                <div class="photo"><img src="img/profile.png"/>
+                </div>
+                <div class="content">
+                    <div class="text">
+                    <h3>Hajar Bakhii</h3>
+                    <h5>Etudiante en MMI</h6>
+                </div>
+                <a href="#" class="bouton_show_hide"><div class="btn"><span></span></div></a>
+                </div>
+            </div> 
+        </div>
+        
+        </div><!--  fin id cote -->
+        
+        
+   </body>
+</html>
